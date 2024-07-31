@@ -1,0 +1,97 @@
+
+@media only screen  and (max-device-width:50%) {
+    nav {
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+
+    }
+    
+}
+
+/* @media screen and  (max-device-width: 780px) { 
+    nav {
+
+    }
+    
+} */
+body {
+    background-image: url(Back.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: black;
+    background-size: auto;
+    overflow-x: hidden;
+}
+
+p.logo1 {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bolder;
+    font-size: 28px;
+    position: relative;
+    transform: translate(660px, 210px);
+}
+
+div.logo1 {
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    position: relative;
+    transform: translate(770px, 145px) skewx(-25deg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color:black ; 
+    font-weight: bolder;
+    font-size:28px;
+
+}
+
+div.input {
+    position: absolute;
+    transform: translate(650px, 175px);
+
+}
+#text, #password {
+    
+    height: 50px;
+    width: 200px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+    font-weight: 700;
+    text-align: center;
+    background: transparent;
+}
+
+::placeholder {
+    color: white;
+}
+
+#sign {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(206, 176, 3);
+    color: black;
+    font-size: 15px;
+    font-weight:bold ;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(50px);
+    transition: ease 0.2s;
+}
+
+#sign:hover {
+    height: 35px;
+    width: 110px;
+    background-color: rgb(255, 229, 83);
+    cursor: pointer;
+}
+
+
